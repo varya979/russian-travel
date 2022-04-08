@@ -1,0 +1,11 @@
+@media screen and (max-width: 896px) {
+  .place__title_wrap_no {
+    white-space: var(--place__title_wrap_no, nowrap);
+  }
+}
+
+/* @media screen and (max-width: 596px) {
+  .place__title_wrap_no {
+    white-space: var(--place__title_wrap_no, pre-wrap);
+  }
+} */

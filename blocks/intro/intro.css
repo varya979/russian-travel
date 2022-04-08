@@ -1,0 +1,30 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+  max-width: 690px;
+  padding-left: 148px;
+}
+
+@media screen and (max-width: 1116px) {
+  .intro {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .intro {
+    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .intro {
+    max-width: minmax(288px, 596px - 16px);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

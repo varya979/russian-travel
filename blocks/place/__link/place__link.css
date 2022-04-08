@@ -1,0 +1,10 @@
+.place__link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
+}
+

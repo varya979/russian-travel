@@ -1,0 +1,12 @@
+.footer__links {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 596px) {
+  .footer__links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+

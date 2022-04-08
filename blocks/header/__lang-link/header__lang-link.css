@@ -1,0 +1,19 @@
+.header__lang-link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.header__lang-link:nth-of-type(2) {
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 596px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

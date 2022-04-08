@@ -1,0 +1,20 @@
+.page {
+  background-color: #2A2C2F;
+  min-width: 320px;
+  max-width: minmax(1280px, auto);
+  margin: 0 auto;
+	min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 0 24px;
+
+
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 596px) {
+  .page {
+    padding-top: 16px;
+  }
+}
+
