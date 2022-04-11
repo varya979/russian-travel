@@ -6,6 +6,7 @@
   line-height: 163%;
   margin: 0;
   box-sizing: border-box;
+  white-space: pre-wrap;
 }
 
 .place__paragraph:nth-of-type(1) {
